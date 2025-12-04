@@ -3,9 +3,9 @@ This project implements a cycle-accurate simulator for an N-wide out-of-order su
 
 Key features include:
 
-• Accurate modeling of out-of-order execution with tag-based instruction tracking
-• Centralized reservation station with dependency checking and ready-bit updates
-• Support for multiple functional unit types and configurable result buses
-• Correct half-cycle behavior for register file writes, FU release, scheduling, and state updates
-• Cycle-by-cycle simulation output with IPC, dispatch queue statistics, and total runtime
-• Validated against benchmark traces such as gcc, gobmk, hmmer, and mcf
+- Accurate modeling of out-of-order execution with tag-based instruction tracking
+- Centralized reservation station with dependency checking and ready-bit updates
+- Support for multiple functional unit types and configurable result buses
+- Correct half-cycle behavior for register file writes, FU release, scheduling, and state updates
+- Cycle-by-cycle simulation output with IPC, dispatch queue statistics, and total runtime
+- Validated against benchmark traces such as gcc, gobmk, hmmer, and mcf
