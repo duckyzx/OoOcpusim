@@ -1,5 +1,5 @@
 # OoOcpusim
-This project implements a cycle-accurate simulator for an N-wide out-of-order superscalar processor. The design models a simplified CPU microarchitecture with five pipeline stages: Fetch, Dispatch, Schedule, Execute, and State Update. The simulator faithfully reproduces pipeline timing, latch behavior, data dependencies, and functional unit scheduling to match reference execution logs.
+This project implements a cycle-accurate simulator for an N-wide out-of-order superscalar processor. The design models a simplified CPU microarchitecture with five pipeline stages: Fetch, Dispatch, Schedule, Execute, and State Update. The simulator reproduces pipeline timing, latch behavior, data dependencies, and functional unit scheduling to match reference execution logs.
 
 Key features include:
 
